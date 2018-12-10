@@ -15,6 +15,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'joshdick/onedark.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'chr4/nginx.vim'
 
 syntax on
 
