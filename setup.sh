@@ -3,8 +3,8 @@
 set -eu
 
 # Install Vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cat .vimrc > ~/.vimrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
+cat vimrc > ~/.vimrc
 vim +PluginInstall +qall
 
 cp -R syntax ~/.vim

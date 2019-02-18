@@ -13,7 +13,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'joshdick/onedark.vim'
+Plugin 'dracula/vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'chr4/nginx.vim'
 
@@ -51,7 +51,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-colorscheme onedark
+" colorscheme onedark
+color dracula
 
 " open NERDTree automatically when vim starts up on opening a directory
 autocmd StdinReadPre * let s:std_in=1
